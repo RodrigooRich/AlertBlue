@@ -1,0 +1,65 @@
+.div_relogio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: #69d2ff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+input[type='number']{
+    border: 2px solid #000000;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+.class_button {
+    background-color: #ffffff;
+    padding: 5px 25px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.class_button2 {
+    border-radius: 10px;
+    padding: 5px 25px;
+    margin: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.alarme{
+    background-color: #3131ff !important;
+}
+
+body{
+    margin: 0;
+}
+
+.fundo {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1095f6;
+}
